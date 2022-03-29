@@ -1,3 +1,3 @@
 import sass from "sass";
 
-sass.compile("input.scss", {});
+sass.compile("main.scss", {});
