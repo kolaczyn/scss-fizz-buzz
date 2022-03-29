@@ -1,3 +1,11 @@
-body {
-  color: red;
+@for $i from 0 through 100 {
+  @if $i % 15 == 0 {
+    @debug FizzBuzz;
+  } @else if $i % 3 == 0 {
+    @debug Fizz;
+  } @else if $i % 5 == 0 {
+    @debug Buzz;
+  } @else {
+    @debug $i;
+  }
 }
